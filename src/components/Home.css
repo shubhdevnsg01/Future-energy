@@ -1,0 +1,21 @@
+.navbar {
+    background-image: url('./../assets/images/header-bg.jpg');
+    background-size: cover;
+    height: 100px; /* Adjust as needed */
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center; /* Center the content vertically */
+    color: white; /* Adjust text color as needed */
+    padding-left: 200px; /* Add some padding to the left */
+ 
+   
+  }
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-icons img {
+    width: 30px; /* Adjust icon size as needed */
+    margin-left: 20px; /* Adjust space between icons */
+  }

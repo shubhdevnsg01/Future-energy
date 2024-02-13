@@ -1,38 +1,21 @@
+import './Home.css'
+import logos from './../assets/images/logo-2.png'
+import icon1 from './../assets/images/1.png'
+import icon2 from './../assets/images/2.png'
+import icon3 from './../assets/images/3.png'
+
 const Home =()=>{
     
     return(    
         <>
-        <div>
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
-  <div className="container-fluid">
-    <a className="navbar-brand" href="#">Navbar</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">About</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Travel</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Blog</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Contact Us</a>
-        </li>
-        
-      </ul>
-     
-    </div>
+    <nav class="navbar">
+      <img src={logos}alt="logo"/>
+      <div className="navbar-icons">
+    <img src={icon1} alt="Icon 1" />
+    <img src={icon2} alt="Icon 2" />
+    <img src={icon3} alt="Icon 3" />
   </div>
-</nav>
-        </div>
+      </nav>
         </>
     )
 }
