@@ -22,7 +22,9 @@
     padding-left: 800px;
 
   }
-  
+  #id{
+    content: blue;
+  }
   .navbar-icons img {
     width: 30px; /* Adjust icon size as needed */
     margin-left: 20px; /* Adjust space between icons */

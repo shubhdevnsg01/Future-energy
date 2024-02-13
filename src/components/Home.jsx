@@ -18,13 +18,14 @@ const Home =()=>{
   <div className="nav-links">
     <a href="#home" className="nav-link">Home</a>
     <a href="#about" className="nav-link">About</a>
-    <a href="#about" className="nav-link">Travel</a>
-    <a href="#about" className="nav-link">Contact</a>
+    <a href="#Travel" className="nav-link">Travel</a>
+    <a href="#Blog" className="nav-link">Blog</a>
+    <a href="#Contact" className="nav-link">Contact</a>
   </div>
       </nav>
       <div className="background-container">
         <div className="content_Home">
-          <h1>TRAVEL</h1>
+        <h1 style={{ color: ' light blue' }}>TRAVEL</h1>
           <h1>WITH US</h1>
           <button className='button_Home'>Read More</button>
           <div className="container_Home">

@@ -1,29 +1,11 @@
-.cards-container {
-  margin-top: 50px; /* Adjust as needed */
-  text-align: center;
+.blog-container {
+  padding: 20px;
+}
+
+.blog-title {
+  margin-bottom: 20px;
 }
 
 .cards {
-  border: 1px solid #ccc;
-  border-radius: 8px;
- 
-  width: 100px; /* Adjust as needed */
-}
-
-.cards img {
-  width: 100%; /* Ensure the image fills the container */
-  border-radius: 8px;
-}
-
-.cards-body {
-  padding: 10px; /* Adjust as needed */
-}
-
-.cards-title {
-  font-size: 1.5rem; /* Adjust as needed */
-  margin-bottom: 10px; /* Adjust as needed */
-}
-
-.cards-text {
-  font-size: 1rem; /* Adjust as needed */
+  margin-bottom: 20px;
 }

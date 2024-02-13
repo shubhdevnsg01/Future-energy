@@ -51,7 +51,7 @@ const Travel =()=>{
     <div>
     <div className="container_2">
       <div className="title_2">
-        <h1>Welcome to My Website</h1>
+      <h1 class="subtitle fancy"><span>BEST THINGS TO DO, IN LONDON</span></h1>
       </div>
       <div className="image-container_2">
         <img src={London} alt="Background" />

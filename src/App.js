@@ -14,7 +14,7 @@ function App() {
     <div id="home">
       <Home/>
     </div>
-    <div id="About">
+    <div id="about">
       <About/>
     </div>
     <div id="Travel">
