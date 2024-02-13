@@ -1,65 +1,65 @@
-.image-container {
-    position: relative;
-    width: 100%;
-    height: auto;
-  }
+.select-offers-for-traveling {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.round-orange-button {
+  display: inline-block;
+  border-radius: 20px; 
+  background-color: orangered; 
+  padding: 10px 20px;
+  margin: 5px;
+  color: #fff;
+  font-size: 16px; 
+  text-align: center; 
+  text-decoration: none; 
+  cursor: pointer;
+  border: none; 
+  outline: none;
+}
+
+.round-orange-button:hover {
+  opacity: 0.8; 
+  transition: opacity 0.2s ease-in-out; 
+}
+
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.category {
+  margin: 10px;
+  padding: 20px;
   
-  .image-container img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .text-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .text-overlay h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
-  }
-  
-  .text-overlay p {
-    line-height: 1.5;
-    margin-bottom: 20px;
-  }
-  
-  .category-boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .category-box {
-    width: calc(25% - 20px);
-    margin: 10px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .category-box h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  
-  .category-box a {
-    color: #fff;
-    background-color: #007bff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-top: 10px;
-  }
-  
+  border-radius: 5px;
+  text-align: center;
+}
+
+.read-more {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

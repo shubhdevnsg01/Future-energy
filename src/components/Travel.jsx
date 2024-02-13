@@ -1,51 +1,43 @@
 import './Travel.css'
+import TravelIcon1 from './../assets/icon/travel-icon.png'
+import TravelIcon2 from './../assets/icon/travel-icon2.png'
+import TravelIcon3 from './../assets/icon/travel-icon3.png'
+import TravelIcon4 from './../assets/icon/travel-icon4.png'
+
 const Travel =()=>{
     return(
         <>
-         <div className="image-container">
-      <img src="D:\futr\my-app\src\assets\icon\travel-icon.png" alt="Travel packages" />
-      <div className="text-overlay">
-        <h1>SELECT OFFERS FOR TRAVELING</h1>
-        <p>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout.
-        </p>
-        <div className="category-boxes">
-          <div className="category-box">
-            <h3>Different Countrys</h3>
-            <p>
-              There are many variations of passages of Lorem Ipsum available, but
-              the majority have suffered alteration in some form, by injected
-              humour, or randomised words which don't look even slightly believable.
-            </p>
-            <a href="#">Read More</a>
+         <div className="select-offers-for-traveling">
+      <div className="title">
+        
+        <b><h1>SELECT OFFERS FOR TRAVELING</h1></b>
+      </div>
+      <div className="content">
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        <div className="categories">
+          <div className="category">
+          <img src={TravelIcon1} alt="Travel Icon" class="icon" />
+            <h2>Different Countrys</h2>
+            <p>There are many variations of passages of Lorem Ipsum.</p>
+            <button className="round-orange-button">Read More</button>
           </div>
-          <div className="category-box">
-            <h3>Mountains Tours</h3>
-            <p>
-              There are many variations of passages of Lorem Ipsum available, but
-              the majority have suffered alteration in some form, by injected
-              humour, or randomised words which don't look even slightly believable.
-            </p>
-            <a href="#">Read More</a>
+          <div className="category">
+          <img src={TravelIcon2} alt="Travel Icon" class="icon" />
+            <h2>Mountains Tours</h2>
+            <p>There are many variations of passages of Lorem Ipsum.</p>
+            <button className="round-orange-button">Read More</button>
           </div>
-          <div className="category-box">
-            <h3>Bus Tours</h3>
-            <p>
-              There are many variations of passages of Lorem Ipsum available, but
-              the majority have suffered alteration in some form, by injected
-              humour, or randomised words which don't look even slightly believable.
-            </p>
-            <a href="#">Read More</a>
+          <div className="category">
+          <img src={TravelIcon3} alt="Travel Icon" class="icon" />
+            <h2>Bus Tours</h2>
+            <p>There are many variations of passages of Lorem Ipsum.</p>
+            <button className="round-orange-button">Read More</button>
           </div>
-          <div className="category-box">
-            <h3>Summer Rest</h3>
-            <p>
-              There are many variations of passages of Lorem Ipsum available, but
-              the majority have suffered alteration in some form, by injected
-              humour, or randomised words which don't look even slightly believable.
-            </p>
-            <a href="#">Read More</a>
+          <div className="category">
+          <img src={TravelIcon4} alt="Travel Icon" class="icon" />
+            <h2>Summer Rest</h2>
+            <p>There are many variations of passages of Lorem Ipsum.</p>
+            <button className="round-orange-button">Read More</button>
           </div>
         </div>
       </div>
