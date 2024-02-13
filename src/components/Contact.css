@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: darkblue;
+  background-color: #151B54;
   color: white;
   padding: 20px;
 }
@@ -12,8 +12,11 @@
   justify-content: space-around;
   font-size: 24px;
   margin-bottom: 20px;
+ 
 }
-
+.icons_Contact .icon {
+  margin-right: 60px; /* Adjust the right margin as needed */
+}
 .icons_Contact img {
   margin-bottom: 10px; /* Add spacing between icons and "Contact Us" section */
 }

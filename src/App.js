@@ -1,6 +1,6 @@
 import './App.css';
 import "./../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import { BrowserRouter as Router, Route,Routes, } from 'react-router-dom';
+
 //components
 import About from "./components/About"
 import Blog from "./components/Blog"
@@ -11,19 +11,19 @@ import Travel from './components/Travel'
 function App() {
   return (
     <>
-    <div>
+    <div id="home">
       <Home/>
     </div>
-    <div>
+    <div id="About">
       <About/>
     </div>
-    <div>
+    <div id="Travel">
       <Travel/>
     </div>
-    <div>
+    <div id="Blog">
       <Blog/>
     </div>
-    <div>
+    <div id="Contact">
       <Contact/>
     </div>
     </>
