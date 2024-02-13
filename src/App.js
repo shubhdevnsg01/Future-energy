@@ -11,15 +11,21 @@ import Travel from './components/Travel'
 function App() {
   return (
     <>
-    <Router>
-      <Routes>
-      <Route path="/About" element={<About/>} />
-      <Route path="/Blog" element={<Blog/>} />
-      <Route path="/Contact" element={<Contact/>} />
-      <Route path="/Travel" element={<Travel/>} />
-        <Route path="/" element={<Home/>} />
-      </Routes>
-      </Router>  
+    <div>
+      <Home/>
+    </div>
+    <div>
+      <About/>
+    </div>
+    <div>
+      <Travel/>
+    </div>
+    <div>
+      <Blog/>
+    </div>
+    <div>
+      <Contact/>
+    </div>
     </>
   );
 }

@@ -1,0 +1,30 @@
+.container_About {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh;
+    justify-content: center;
+    
+  }
+  
+  .box_About {
+    flex: 1; /* Take up remaining space in container */
+    border: 3px solid #007bff; /* Add blue border */
+  padding: 40px; /* Increase box size */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%; /* Adjust as needed */
+    position: relative; /* Enable absolute positioning for image */
+    min-height: 400px;
+    z-index: 0;
+  }
+  
+  .plane-image {
+    position: absolute; /* Position image absolutely within the box */
+    right: 20px; /* Adjust horizontal position from right edge */
+    bottom: 20px; /* Adjust vertical position from bottom */
+    max-width: 80%; /* Control image size while maintaining aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 1;
+  }
+  
+  

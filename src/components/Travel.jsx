@@ -3,6 +3,7 @@ import TravelIcon1 from './../assets/icon/travel-icon.png'
 import TravelIcon2 from './../assets/icon/travel-icon2.png'
 import TravelIcon3 from './../assets/icon/travel-icon3.png'
 import TravelIcon4 from './../assets/icon/travel-icon4.png'
+import facebook from './../assets/icon/facebook.png'
 
 const Travel =()=>{
     return(
