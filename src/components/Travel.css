@@ -63,3 +63,88 @@
   border-radius: 5px;
   cursor: pointer;
 }
+.container_2 {
+  position: relative; /* Required for absolute positioning */
+}
+
+.title_2 {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+.image-container_2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px; /* Adjust as needed */
+  
+}
+
+.image-container_2 img {
+  max-width: 100%;
+}
+.container_3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header_3 {
+  margin-bottom: 20px;
+}
+
+.cards_3 {
+  display: flex;
+  justify-content: center;
+}
+
+.card_3 {
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.card_3 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-text_3 {
+  margin-top: 10px;
+}
+.container_4 {
+  background-image: url('./../assets/images/Amazing.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content_4 {
+  text-align: center;
+  color: white;
+}
+
+.buttons_4 {
+  margin-top: 20px;
+  
+}
+
+.buttons_4 button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px; 
+  background-color: orangered; 
+  color: #fff;
+  border: none; 
+  outline: none;
+}
