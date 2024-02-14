@@ -68,7 +68,7 @@ const Home =()=>{
       </nav>
       <div className="background-container">
         <div className="content_Home">
-        <h1>TRAVEL</h1>
+        <h1 className='tag'>TRAVEL</h1>
           <h1>WITH US</h1>
           <button className='button_Home'>Read More</button>
           <div className="form-container">
