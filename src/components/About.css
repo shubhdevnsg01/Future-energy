@@ -26,5 +26,19 @@
     height: auto; /* Maintain aspect ratio */
     z-index: 1;
   }
+  @media screen and (max-width: 768px) {
+    .container_About {
+      flex-direction: column;
+    }
   
+    .box_About {
+      width: 80%; /* Adjust width for smaller screens */
+      margin-bottom: 20px; /* Add margin for spacing */
+    }
+  
+    .plane-image {
+      position: static; /* Reset position for smaller screens */
+      max-width: 100%; /* Adjust image size for smaller screens */
+    }
+  }
   
